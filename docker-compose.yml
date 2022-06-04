@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mysql:
+    image: quay.io/debezium/example-mysql:1.8
+    container_name: mysql
+    ports:
+     - 3306:3306
+    environment:
+     - MYSQL_ROOT_PASSWORD=debezium
+     - MYSQL_USER=mysqluser
+     - MYSQL_PASSWORD=mysqlpw

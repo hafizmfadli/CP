@@ -1,0 +1,26 @@
+{
+  "carts": [
+    {
+      "updated_edited_id": 53,
+      "quantity": 1
+    },
+    {
+      "updated_edited_id": 52,
+      "quantity": 1
+    }
+  ],
+  "shipping_address": {
+    "email": "debruyne@email.com",
+    "first_name": "kevin",
+    "last_name": "de bruyne",
+    "addresses": "bandung",
+    "postal_code": "40223",
+    "province_id": 1,
+    "city_id": 1,
+    "district_id": 1,
+    "subdistrict_id": 1,
+    "phone": "08123456789"
+  },
+  "address_variety": 0,
+  "checkout_type": 0
+}
